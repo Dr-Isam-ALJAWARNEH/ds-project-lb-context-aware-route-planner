@@ -22,6 +22,6 @@
     > what is the ```shortest path``` that minimizes the total ```PM10``` exposure. Imagine a scenario where a lady dweller is walking a baby on a trolley and she is trying to avoid the areas that are most polluted by navigating your map that recommends shortest path in terms of less pollution (less exposure to PM10, in total!)
     - 
 ***Team members***
-- [your name](your site or linkedin)
+- [[Eisa Sajwani]()](https://github.com/EisaSajwani)
 - [your name](your site or linkedin)
 - [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/)
