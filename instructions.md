@@ -17,5 +17,5 @@
    **_Team members_**
 
 - [[Eisa Sajwani]()](https://github.com/EisaSajwani)
-- [[Eisa Alsaadi]()](https://github.com/eisaaliedu)
+- [[Eisa Ali Alsaadi]()](https://github.com/eisaaliedu)
 - [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/)
