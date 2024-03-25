@@ -16,11 +16,9 @@
 4. Then, given an origin point and a destination, > what is the `shortest path` that minimizes the total `PM10` exposure. Imagine a scenario where a lady dweller is walking a baby on a trolley and she is trying to avoid the areas that are most polluted by navigating your map that recommends shortest path in terms of less pollution (less exposure to PM10, in total!) -
    **_Team members_**
 
-<<<<<<< Updated upstream
 - [[Eisa Sajwani]()](https://github.com/EisaSajwani)
 - [[Eisa Ali Alsaadi]()](https://github.com/eisaaliedu)
 - [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/)
-=======
 NEW! 25 March 2024
 
 - You next task, is to extract street segments in NYC in the form of geojson (use the attached examples as a jumping off point), geojson file  will contain geometry columns consisting of a linestring for each street segment. 
@@ -28,4 +26,3 @@ NEW! 25 March 2024
 - Find the shortest path based on the pm25 as the weight. in the ```shortest_path(G,                         orig_node,    dest_node,        weight='length')``` change the weight to ```pm```. Change the ```method``` parameter to ```bellman-ford``` and compare the results, combination of two algorithms (distance + pollution level) compare ```bellman-ford``` and ```dijkstra``` in terms of Kilometer distance, remeber both of them give us optimized shortest path in terms of ```pm``` compare which one is guranteed less kilometers (a combination).
 - Make a page similar to the following [green path](https://green-paths.web.app/) using [leaflet](https://leafletjs.com/)
 - BONUS point: use a a ```linear weighting method```  to construct a new weight that is based on both distance and pm, and recommend route based on that!
->>>>>>> Stashed changes
