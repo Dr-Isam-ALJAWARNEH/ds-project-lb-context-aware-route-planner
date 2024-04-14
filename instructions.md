@@ -50,6 +50,10 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
 
 ### `IMPORTANNT!`
 - you need to develop other performance metrics, for example, what is the difference between distances of several trips recommended by your novel system against a plain version that considers only the distance!
+   - Also, you can measure the following: `the route planning effectiveness is verified by comparing the PM2.5 potential dose descending rate between the healthy route and the shortest route.` , in other terms `what is the potential dose reduction rate of the healthy route`, read more details in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)
+
+### `IMPORTANNT!`
+- In sumamry, you need to obtain and discuss results similar to thoe appearing in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)!
 
 --------------------------------------------
 <!-- Task 5 -->
