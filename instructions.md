@@ -1,6 +1,4 @@
-# Instructions
-
-## follow the following instructions
+## follow instructions
 # instructions
 # `Required OPTIMIZATIONs ==> IMPORTANT!`
 ---------------------------------------
@@ -32,6 +30,17 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
   # `TODO:` next - Stratified-sampling 
 - [ ] You need to test based on `samples` taken from both `mobility` and `air-quality` data using stratified-like sampling, using geohash as your stratfification method. Then find the `routes` recommended using the same pairs of `origin` and `destination` points. Compare the results between the full data (i.e., population data) and the sampled data in terms of speed and accuracy. running-time speed means `end-end` running time, from data acquisition, street-data nx extraction, application of `join` and `sjoin`, in addition to route generation and recommendation. Accuracy means how much the sample is successful in recommending the best route based on the sample instead of the population. 
    - one way to think of this is to consider both routes (the one recommended using the sample, against the one using the original data) as trajectories and measure what is known as `trajectory similarity`. So varying the sampling fraction in the `x-axis` and the obtained `trajectory similarity` in the `y-axis` will do the trick!
+      - Examples of `trajectory similarity measures` that you should use include the following:
+       
+         - `Euclidean Distance (ED)`, `Longest Common Subsequence (LCSS).`, `Edit Distance on Real Sequence (EDR).`
+         - `Frechet Distance` ,  measures the similarity between two curves.
+            - It considers the closest approach of a parameterized moving point on one curve to a parameterized moving point on the other curve.
+            - It accounts for differences in speed and time.
+         - `Hausdorff Distance`, calculates the similarity between two sets of points in a metric space
+            - measures how far two subsets are from each other by considering the maximum distance of a point in one set to the closest point in the other set
+            - particularly useful when dealing with noisy or sparse trajectories
+         - Read the newly attached paper in the `literature` folder titled `Spatio-Temporal Trajectory Similarity Measures` for more information on how to use those measures for measuring similarities between trajectories!, you find it [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/trajectory%20similarity/trajectory%20similarity%20measure%20spatial.pdf)
+         - So, in the `x-axis` you can have the `sampling fraction` (20%, 40%, 60%, 80%, 90%) and in the `y-axis` you can have the `similarity measure`, comparing trajectories resulting from original data against trajectories resulting from `sampled` data. The same strategy can also be used for comparing `routes` (i.e., trajectories) that result from recommendations using `shortest_path` method with the `weight` attribute being equal to the air quality (being that the plain particulate matters level or the one calculated as a rating by uisng the `linear weighting average`), against the routes (i.e., trajectories) that result from using the normal geographical distances as a value for the `weight` parameter. This can quantify the differences between route trajectories to measure how good is the recommendation!
 -------------------------------------------------
 <!-- Task 4 -->
 # [ ] Task 4
@@ -39,9 +48,9 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
 - apply everything you have done (and you need to do in `task2`) to a second dataset, probably `NYC taxi mobility data`, that is [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`. the target variable is `trip_distance`. You need to capture `accuracy` and `running time` as described previously.
 - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
 
-- you need to develop performance metrics, for example, what is the difference between distances of several trips recommended by your novel system against a plain version that considers only the distance!
+### `IMPORTANNT!`
+- you need to develop other performance metrics, for example, what is the difference between distances of several trips recommended by your novel system against a plain version that considers only the distance!
 
-TBC
 --------------------------------------------
 <!-- Task 5 -->
 # [ ] Task 5
@@ -50,6 +59,7 @@ TBC
 [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`
 - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
 - start writing your paper, either for conferences or journal. For journal, use the `applied sciences` template atatched in the `target-venue` folder titled `applsci-template.dot` or ```IEEE``` template attached, or other journal template that i can attach later on. (minimum 10 pages)
+**N.B.** We may embark on another journal for submission hereafter, so, you can always move (copy/paste) your manuscript text to another journal format template!
 - or even, consider one of the following two conference (IEEE template for those conferences is attached) (minimum 6 pages)
     - [MCNA - Spain](https://mcna-conference.org/2024/committee.php)
     - [IDSTA - Croatia](https://idsta-conference.org/2024/calls.php)
