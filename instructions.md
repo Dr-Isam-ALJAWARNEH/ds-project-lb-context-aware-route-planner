@@ -67,7 +67,8 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
 - or even, consider one of the following two conference (IEEE template for those conferences is attached) (minimum 6 pages)
     - [MCNA - Spain](https://mcna-conference.org/2024/committee.php)
     - [IDSTA - Croatia](https://idsta-conference.org/2024/calls.php)
-1.  [ ] Include (cite appropriately) some of the following papers! reference papers include:
+1.  Refer to the papers in the `related_works` folder under `reference_paper` folder in the `literatre` folder and cite some those related works properly! Also papers in `New-April2024` folder and `trajectory similarity` folder and all papers in the `literature` folder generally.
+2. [ ] Include (cite appropriately) some of the following papers! reference papers include:
     # Category A : for sampling desing and Approximate Query Processing (AQP)
     > Spatial-aware approximate big data stream processing [^2] and
     > Polygon Simplification for the Efficient Approximate Analytics of Georeferenced Big Data [^3]
