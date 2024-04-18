@@ -8,3 +8,4 @@ Adapt Dijkstra's Shortest Path Algorithm to perform route planning based on the 
 - [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/) (Supervisor)
 - [[Eisa Sajwani]()](https://github.com/EisaSajwani)
 - [[Eisa Ali Alsaad]()](https://github.com/eisaaliedu)
+- [[Usama Habib]()](https://github.com/usamah7866)
