@@ -53,11 +53,13 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
    - apply everything you have done (and you need to do in `task2`) to a second dataset, probably `NYC taxi mobility data`, that is [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`. the target variable is `trip_distance`. You need to capture `accuracy` and `running time` as described previously.
    - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
 
-- [ ] ### `IMPORTANNT!` **however, you need to add the following to your code it would be great!**
+- [ ] 
+### `IMPORTANT!` **however, you need to add the following to your code it would be great!**
    - you need to develop other performance metrics, for example, what is the difference between distances of several trips recommended by your novel system against a plain version that considers only the distance!
    - Also, you can measure the following: `the route planning effectiveness is verified by comparing the PM2.5 potential dose descending rate between the healthy route and the shortest route.` , in other terms `what is the potential dose reduction rate of the healthy route`, read more details in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)
 
-- [ ] ### `IMPORTANNT!` and also, ** you need to discuss results similar to the paper attached!**
+- [ ] 
+### `IMPORTANT!` and also, ** you need to discuss results similar to the paper attached!**
 - In sumamry, you need to obtain and discuss results similar to thoe appearing in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)!
 
 --------------------------------------------
@@ -71,9 +73,9 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
 - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
 
 - [ ], **This sub-task is essential**
-- start writing your paper, either for conferences or journal. For journal, use the `applied sciences` template atatched in the `target-venue` folder titled `applsci-template.dot` or ```IEEE``` template attached, or other journal template that i can attach later on. (minimum 10 pages)
-**N.B.** We may embark on another journal for submission hereafter, so, you can always move (copy/paste) your manuscript text to another journal format template!
-- or even, consider one of the following two conference (IEEE template for those conferences is attached) (minimum 6 pages)
+   - start writing your paper, either for conferences or journal. For journal, use the `applied sciences` template atatched in the `target-venue` folder titled `applsci-template.dot` or ```IEEE``` template attached, or other journal template that i can attach later on. (minimum 10 pages)
+   **N.B.** We may embark on another journal for submission hereafter, so, you can always move (copy/paste) your manuscript text to another journal format template!
+   - or even, consider one of the following two conference (IEEE template for those conferences is attached) (minimum 6 pages)
     - [MCNA - Spain](https://mcna-conference.org/2024/committee.php)
     - [IDSTA - Croatia](https://idsta-conference.org/2024/calls.php)
 1.  Refer to the papers in the `related_works` folder under `reference_paper` folder in the `literatre` folder and cite some those related works properly! Also papers in `New-April2024` folder and `trajectory similarity` folder and all papers in the `literature` folder generally.
@@ -103,31 +105,31 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
     [^10]: Aljawarneh, I. M., Bellavista, P., Corradi, A., Montanari, R., Foschini, L., & Zanotti, A. (2017, July). Efficient spark-based framework for big geospatial data query processing and analysis. In 2017 IEEE symposium on computers and communications (ISCC) (pp. 851-856). IEEE. [available online](https://www.academia.edu/download/55478212/08024633.pdf)
 -------------------------
 <!-- Task 1 -->
-# Task 1
-
+# Task 1 **task accomplished - Excellent!** 
+- [X]
 1. [X] run the example starting code and familiarize yourself with some geosaptial processing techniques, including:
    - sampling
    - spatial join
    - geo-visualization
-
-   ### ```attention``` You have to perform  this task!!!
-2. [ ] start by performing Exploratory Data Analytics (EDA) for the data > for example - historgrams to study the distribution of data (you have three sensors) - `Kernel Density (univariate, aspatial)` - get insights from the following: - [02_geovisualization](https://darribas.org/gds_scipy16/ipynb_md/02_geovisualization.html) - [Exploratory Spatial Data Analysis (ESDA)](https://darribas.org/gds_scipy16/ipynb_md/04_esda.html) - [NYC Data](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter02/NYC%20Data.ipynb) - [Performing Spatial operations like a Pro](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter03/Chapter3.ipynb) such as `Spatial join`
+   ### ```attention``` You have to perform  this task!!! **sub-task accomplished - Excellent!** 
+2. [X], **i will consider this sub-task accomplished - Excellent!** start by performing Exploratory Data Analytics (EDA) for the data > for example - historgrams to study the distribution of data (you have three sensors) - `Kernel Density (univariate, aspatial)` - get insights from the following: - [02_geovisualization](https://darribas.org/gds_scipy16/ipynb_md/02_geovisualization.html) - [Exploratory Spatial Data Analysis (ESDA)](https://darribas.org/gds_scipy16/ipynb_md/04_esda.html) - [NYC Data](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter02/NYC%20Data.ipynb) - [Performing Spatial operations like a Pro](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter03/Chapter3.ipynb) such as `Spatial join`
    > also,
-   >
    > - Exploratory Spatial Data Analysis (ESDA) [example](https://darribas.org/gds_scipy16/ipynb_md/04_esda.html), such as `Spatial Autocorrelation`
    > - Exploratory Spatial and Temporal Data Analysis (ESTDA), [example](https://darribas.org/gds_scipy16/ipynb_md/05_spatial_dynamics.html), such as `Spaghetti Plot`, `Kernel Density (univariate, aspatial)`, `Markov Chains`, and `Spatial Markov`, [Spatial Autocorellation](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter04/Chapter4.ipynb), and [GLobal Spatial Autocorrelation](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter04/Chapter4.ipynb)
-3. [ ] Find the example notebook titled `shortest-path.ipynb`.
+3. [X], **sub-task accomplished - Excellent!** Find the example notebook titled `shortest-path.ipynb`.
    > You need to find the street network of NYC and join (`spatial join`) the sensor's reading you have in the .csv file (air quality sensor's readings collected from NYC), then you will have a new file containing the readings and to which street (edge in OSMNX terms) they belong each, then you can compute, for example, the average PM10 value in each street segment, then this would be the `weight` that you can pass to the `shortest_path` function in `osmnx`. This is not binding!!!, depending on your `EDA` and `ESDA` and `ESTDA`, you decide what is the `weight` that you want to pass to the `shortest_path` function in `osmnx`.
-4. Then, given an origin point and a destination, > what is the `shortest path` that minimizes the total `PM10` exposure. Imagine a scenario where a lady dweller is walking a baby on a trolley and she is trying to avoid the areas that are most polluted by navigating your map that recommends shortest path in terms of less pollution (less exposure to PM10, in total!) -
-   **_Team members_**
-
-- [[Eisa Sajwani]](https://github.com/EisaSajwani)
-- [[Eisa Ali Alsaadi]](https://github.com/eisaaliedu)
-- [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/) (Supervisor)
+4. [X], **sub-task accomplished - Excellent!**, Then, given an origin point and a destination, > what is the `shortest path` that minimizes the total `PM10` exposure. Imagine a scenario where a lady dweller is walking a baby on a trolley and she is trying to avoid the areas that are most polluted by navigating your map that recommends shortest path in terms of less pollution (less exposure to PM10, in total!) -
+  
 NEW! 25 March 2024
 
-[] - You next task, is to extract street segments in NYC in the form of geojson (use the attached examples as a jumping off point), geojson file  will contain geometry columns consisting of a linestring for each street segment. 
-- For each point in the AQ data csv file, find the corresponding street segments which is the nearest. You need to use [GeoDataFrame.sjoin_nearest](https://geopandas.org/en/stable/docs/user_guide/mergingdata.html). Explore it in details [sjoin_nearest](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoDataFrame.sjoin_nearest.html#geopandas.GeoDataFrame.sjoin_nearest). By this we know to which street each point (AQ reading) belongs. 
-- Find the shortest path based on the pm25 as the weight. in the ```shortest_path(G,                         orig_node,    dest_node,        weight='length')``` change the weight to ```pm```. Change the ```method``` parameter to ```bellman-ford``` and compare the results, combination of two algorithms (distance + pollution level) compare ```bellman-ford``` and ```dijkstra``` in terms of `Kilometer distance`, remeber both of them give us optimized shortest path in terms of ```pm``` compare which one is guranteed `less kilometers` (a combination).
-- Make a page similar to the following [green path](https://green-paths.web.app/) using [leaflet](https://leafletjs.com/)
-- BONUS point: use a a ```linear weighting method```  to construct a new weight that is based on both distance and pm, and recommend route based on that!
+- [X] **sub-task accomplished - Excellent!**. You next task, is to extract street segments in NYC in the form of geojson (use the attached examples as a jumping off point), geojson file  will contain geometry columns consisting of a linestring for each street segment. 
+   - For each point in the AQ data csv file, find the corresponding street segments which is the nearest. You need to use [GeoDataFrame.sjoin_nearest](https://geopandas.org/en/stable/docs/user_guide/mergingdata.html). Explore it in details [sjoin_nearest](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoDataFrame.sjoin_nearest.html#geopandas.GeoDataFrame.sjoin_nearest). By this we know to which street each point (AQ reading) belongs. 
+   - Find the shortest path based on the pm25 as the weight. in the ```shortest_path(G,                         orig_node,    dest_node,        weight='length')``` change the weight to ```pm```. Change the ```method``` parameter to ```bellman-ford``` and compare the results, combination of two algorithms (distance + pollution level) compare ```bellman-ford``` and ```dijkstra``` in terms of `Kilometer distance`, remeber both of them give us optimized shortest path in terms of ```pm``` compare which one is guranteed `less kilometers` (a combination).
+- [ ] Make a page similar to the following [green path](https://green-paths.web.app/) using [leaflet](https://leafletjs.com/)
+- [X] **this sub-task is not essential, you can skip it**. BONUS point: use a a ```linear weighting method```  to construct a new weight that is based on both distance and pm, and recommend route based on that!
+
+ **_Team members_**
+
+- [Eisa Sajwani](https://github.com/EisaSajwani)
+- [Eisa Ali Alsaadi](https://github.com/eisaaliedu)
+- [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/) (Supervisor)
