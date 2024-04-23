@@ -105,8 +105,8 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
     [^10]: Aljawarneh, I. M., Bellavista, P., Corradi, A., Montanari, R., Foschini, L., & Zanotti, A. (2017, July). Efficient spark-based framework for big geospatial data query processing and analysis. In 2017 IEEE symposium on computers and communications (ISCC) (pp. 851-856). IEEE. [available online](https://www.academia.edu/download/55478212/08024633.pdf)
 -------------------------
 <!-- Task 1 -->
-# Task 1 **task accomplished - Excellent!** 
-- [X]
+# Task 1 
+- [X] **task accomplished - Excellent!** 
 1. [X] run the example starting code and familiarize yourself with some geosaptial processing techniques, including:
    - sampling
    - spatial join
