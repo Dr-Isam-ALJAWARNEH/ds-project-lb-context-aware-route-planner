@@ -67,12 +67,12 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
 # Task 5
 - [X] **partially completed**
 
-- [X], **This sub-task is not essential and you can postpone it as a future work that we can further investigate together, in case you want to extend your work so that it is considered for a journal publication in a reputable venue!. Having said that, I am marking it**
+- [X] **This sub-task is not essential and you can postpone it as a future work that we can further investigate together, in case you want to extend your work so that it is considered for a journal publication in a reputable venue!. Having said that, I am marking it**
    - `IMPortant: POSTPONED` test with more than one data, add NYC taxi mobility data (for journal paper, you need tests on more than one data):
 [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`
    - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
 
-- [ ], **This sub-task is essential**
+- [ ]  **This sub-task is essential**
    - start writing your paper, either for conferences or journal. For journal, use the `applied sciences` template atatched in the `target-venue` folder titled `applsci-template.dot` or ```IEEE``` template attached, or other journal template that i can attach later on. (minimum 10 pages)
    **N.B.** We may embark on another journal for submission hereafter, so, you can always move (copy/paste) your manuscript text to another journal format template!
    - or even, consider one of the following two conference (IEEE template for those conferences is attached) (minimum 6 pages)
