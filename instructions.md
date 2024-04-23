@@ -48,17 +48,17 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
 # Task 4 
 - [X] **partially completed**
 
-**This sub-task is not essential and you can postpone it as a future work that we can further investigate together, in case you want to extend your work so that it is considered for a journal publication in a reputable venue!. Having said that, I am marking it**
-  # `TODO:` test with second data, and develop performance metrics
-   - apply everything you have done (and you need to do in `task2`) to a second dataset, probably `NYC taxi mobility data`, that is [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`. the target variable is `trip_distance`. You need to capture `accuracy` and `running time` as described previously.
-   - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
+- [X] **This sub-task is not essential and you can postpone it as a future work that we can further investigate together, in case you want to extend your work so that it is considered for a journal publication in a reputable venue!. Having said that, I am marking it**
+   - `TODO: POSTPONED!` test with second data, and develop performance metrics
+      - apply everything you have done (and you need to do in `task2`) to a second dataset, probably `NYC taxi mobility data`, that is [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`. the target variable is `trip_distance`. You need to capture `accuracy` and `running time` as described previously.
+      - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
 
-- [ ] 
+- [ ] SUB-TASK
 ### `IMPORTANT!` **however, you need to add the following to your code it would be great!**
    - you need to develop other performance metrics, for example, what is the difference between distances of several trips recommended by your novel system against a plain version that considers only the distance!
    - Also, you can measure the following: `the route planning effectiveness is verified by comparing the PM2.5 potential dose descending rate between the healthy route and the shortest route.` , in other terms `what is the potential dose reduction rate of the healthy route`, read more details in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)
 
-- [ ] 
+- [ ] SUB-TASK
 ### `IMPORTANT!` and also, ** you need to discuss results similar to the paper attached!**
 - In sumamry, you need to obtain and discuss results similar to thoe appearing in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)!
 
@@ -68,9 +68,9 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
 - [X] **partially completed**
 
 - [X], **This sub-task is not essential and you can postpone it as a future work that we can further investigate together, in case you want to extend your work so that it is considered for a journal publication in a reputable venue!. Having said that, I am marking it**
-### `IMPortant` test with more than one data, add NYC taxi mobility data (for journal paper, you need tests on more than one data):
+   - `IMPortant: POSTPONED` test with more than one data, add NYC taxi mobility data (for journal paper, you need tests on more than one data):
 [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`
-- You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
+   - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
 
 - [ ], **This sub-task is essential**
    - start writing your paper, either for conferences or journal. For journal, use the `applied sciences` template atatched in the `target-venue` folder titled `applsci-template.dot` or ```IEEE``` template attached, or other journal template that i can attach later on. (minimum 10 pages)
