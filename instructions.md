@@ -3,19 +3,20 @@
 # `Required OPTIMIZATIONs ==> IMPORTANT!`
 ---------------------------------------
 <!-- Task 2 -->
-# [ ] Task 2
+# Task 2
+- [X] **task accomplished - Excellent!**
 # `Update: April 13, 2024`
 ### `N.B.` references are available in the end of this instruction file!
 complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-1)
 
 ## `TODO:` 
-- [ ] start by performing more Exploratory Data Analytics (EDA) for the data > for example - historgrams to study the distribution of data (you have three sensors) - `Kernel Density (univariate, aspatial)` - get insights from the following: - [02_geovisualization](https://darribas.org/gds_scipy16/ipynb_md/02_geovisualization.html) - [Exploratory Spatial Data Analysis (ESDA)](https://darribas.org/gds_scipy16/ipynb_md/04_esda.html) - [NYC Data](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter02/NYC%20Data.ipynb) - [Performing Spatial operations like a Pro](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter03/Chapter3.ipynb) such as `Spatial join`
+- [X] start by performing more Exploratory Data Analytics (EDA) for the data > for example - historgrams to study the distribution of data (you have three sensors) - `Kernel Density (univariate, aspatial)` - get insights from the following: - [02_geovisualization](https://darribas.org/gds_scipy16/ipynb_md/02_geovisualization.html) - [Exploratory Spatial Data Analysis (ESDA)](https://darribas.org/gds_scipy16/ipynb_md/04_esda.html) - [NYC Data](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter02/NYC%20Data.ipynb) - [Performing Spatial operations like a Pro](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter03/Chapter3.ipynb) such as `Spatial join`
    > also,
    > - Exploratory Spatial Data Analysis (ESDA) [example](https://darribas.org/gds_scipy16/ipynb_md/04_esda.html), such as `Spatial Autocorrelation`
    > - Exploratory Spatial and Temporal Data Analysis (ESTDA), [example](https://darribas.org/gds_scipy16/ipynb_md/05_spatial_dynamics.html), some of the following, such as `Spaghetti Plot`, `Kernel Density (univariate, aspatial)`, `Markov Chains`, and `Spatial Markov`, [Spatial Autocorellation](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter04/Chapter4.ipynb), and [GLobal Spatial Autocorrelation](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter04/Chapter4.ipynb)
-- [ ] So, you have hyperlocal Air Quality data, and you need to find the shortest parth in terms of the one with the lowest cost of pollution (e.g., pm10, pm25, etc.,). So, adapting the `shortest_path` so that you use `pm25_weight` for the `weight` attribute instead of the distance attributes. The weigh is currently based only on `value` and from the data you have you need to conisder several other attributes `individually` first, then in combination using a ```linear weighting method``` similar to the description in the file attached [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/linear_weighting_method.pdf). Also, do the same for other attibutes. For example, `temperature` and `humidity` in the data files attached.
+- [X]  **subtask accomplished - Excellent!** So, you have hyperlocal Air Quality data, and you need to find the shortest parth in terms of the one with the lowest cost of pollution (e.g., pm10, pm25, etc.,). So, adapting the `shortest_path` so that you use `pm25_weight` for the `weight` attribute instead of the distance attributes. The weigh is currently based only on `value` and from the data you have you need to conisder several other attributes `individually` first, then in combination using a ```linear weighting method``` similar to the description in the file attached [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/linear_weighting_method.pdf). Also, do the same for other attibutes. For example, `temperature` and `humidity` in the data files attached.
 
-- [ ] `ESSENTIAL FOR THE SUCCESS OF THE PROJECT!` You need to develop a amethod to perform `spatial join` between the `hyperloaccal` street-level air quality data, and the `taxi mobility` data. You are specifically required to do the following task:
+- [X] **sub-task accomplished - Excellent!** `ESSENTIAL FOR THE SUCCESS OF THE PROJECT!` You need to develop a amethod to perform `spatial join` between the `hyperlocal` street-level air quality data, and the `taxi mobility` data. You are specifically required to do the following task:
 
    - search NYC taxi cab data that temporally corresponds to the AQ data (similar time resolution)
       > be ware that the time and space (geo dimension) resolutions, take distance (time & space) tolerance and design and implement a novel spatio-temporal join algorithm (do not use the stock version of geopandas sjoin) based on this approximation to join individual records from both datasets. You can think of something like an adaptation of the filter-and-refine spatial join method. Filter simply means you convert each long/lat pair in each dataset to one-dimension (e.g. geohash, there are others Ubers H3, Google S2), this is known as Minimum Bounding Rectangle join (MBR-join), in other terms equi-join (geohash_AQ == geohash_Mobility) you can do this using merge() function from pandas.
@@ -26,7 +27,8 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
     
 -------------------------------------------------
 <!-- Task 3 -->
-# [ ] Task 3
+# Task 3 
+- [X] **task accomplished - Excellent!**
   # `TODO:` next - Stratified-sampling 
 - [ ] You need to test based on `samples` taken from both `mobility` and `air-quality` data using stratified-like sampling, using geohash as your stratfification method. Then find the `routes` recommended using the same pairs of `origin` and `destination` points. Compare the results between the full data (i.e., population data) and the sampled data in terms of speed and accuracy. running-time speed means `end-end` running time, from data acquisition, street-data nx extraction, application of `join` and `sjoin`, in addition to route generation and recommendation. Accuracy means how much the sample is successful in recommending the best route based on the sample instead of the population. 
    - one way to think of this is to consider both routes (the one recommended using the sample, against the one using the original data) as trajectories and measure what is known as `trajectory similarity`. So varying the sampling fraction in the `x-axis` and the obtained `trajectory similarity` in the `y-axis` will do the trick!
@@ -43,25 +45,32 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
          - So, in the `x-axis` you can have the `sampling fraction` (20%, 40%, 60%, 80%, 90%) and in the `y-axis` you can have the `similarity measure`, comparing trajectories resulting from original data against trajectories resulting from `sampled` data. The same strategy can also be used for comparing `routes` (i.e., trajectories) that result from recommendations using `shortest_path` method with the `weight` attribute being equal to the air quality (being that the plain particulate matters level or the one calculated as a rating by uisng the `linear weighting average`), against the routes (i.e., trajectories) that result from using the normal geographical distances as a value for the `weight` parameter. This can quantify the differences between route trajectories to measure how good is the recommendation!
 -------------------------------------------------
 <!-- Task 4 -->
-# [ ] Task 4
-  # `TODO:` test with second data, and develop performance metrics
-- apply everything you have done (and you need to do in `task2`) to a second dataset, probably `NYC taxi mobility data`, that is [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`. the target variable is `trip_distance`. You need to capture `accuracy` and `running time` as described previously.
-- You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
+# Task 4 
+- [X] **partially completed**
 
-### `IMPORTANNT!`
-- you need to develop other performance metrics, for example, what is the difference between distances of several trips recommended by your novel system against a plain version that considers only the distance!
+**This sub-task is not essential and you can postpone it as a future work that we can further investigate together, in case you want to extend your work so that it is considered for a journal publication in a reputable venue!. Having said that, I am marking it**
+  # `TODO:` test with second data, and develop performance metrics
+   - apply everything you have done (and you need to do in `task2`) to a second dataset, probably `NYC taxi mobility data`, that is [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`. the target variable is `trip_distance`. You need to capture `accuracy` and `running time` as described previously.
+   - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
+
+- [ ] ### `IMPORTANNT!` **however, you need to add the following to your code it would be great!**
+   - you need to develop other performance metrics, for example, what is the difference between distances of several trips recommended by your novel system against a plain version that considers only the distance!
    - Also, you can measure the following: `the route planning effectiveness is verified by comparing the PM2.5 potential dose descending rate between the healthy route and the shortest route.` , in other terms `what is the potential dose reduction rate of the healthy route`, read more details in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)
 
-### `IMPORTANNT!`
+- [ ] ### `IMPORTANNT!` and also, ** you need to discuss results similar to the paper attached!**
 - In sumamry, you need to obtain and discuss results similar to thoe appearing in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)!
 
 --------------------------------------------
 <!-- Task 5 -->
-# [ ] Task 5
+# Task 5
+- [X] **partially completed**
 
+- [X], **This sub-task is not essential and you can postpone it as a future work that we can further investigate together, in case you want to extend your work so that it is considered for a journal publication in a reputable venue!. Having said that, I am marking it**
 ### `IMPortant` test with more than one data, add NYC taxi mobility data (for journal paper, you need tests on more than one data):
 [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`
 - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
+
+- [ ], **This sub-task is essential**
 - start writing your paper, either for conferences or journal. For journal, use the `applied sciences` template atatched in the `target-venue` folder titled `applsci-template.dot` or ```IEEE``` template attached, or other journal template that i can attach later on. (minimum 10 pages)
 **N.B.** We may embark on another journal for submission hereafter, so, you can always move (copy/paste) your manuscript text to another journal format template!
 - or even, consider one of the following two conference (IEEE template for those conferences is attached) (minimum 6 pages)
