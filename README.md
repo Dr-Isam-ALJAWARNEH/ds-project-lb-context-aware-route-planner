@@ -5,7 +5,7 @@ Adapt Dijkstra's Shortest Path Algorithm to perform route planning based on the 
 
 **_Team Members_**
 
-- [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/) (Supervisor)
-- [[Eisa Sajwani]()](https://github.com/EisaSajwani)
-- [[Eisa Ali Alsaad]()](https://github.com/eisaaliedu)
-- [[Usama Habib]()](https://github.com/usamah7866)
+- [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/) **(Supervisor)**
+- [Eisa Sajwani](https://github.com/EisaSajwani) **(team member)**
+- [Eisa Ali Alsaad](https://github.com/eisaaliedu) **(team member)**
+- [Usama Habib](https://github.com/usamah7866) **(team member)**
