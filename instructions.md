@@ -53,7 +53,7 @@ complete tasks (or sub-tasks) marked with ```attention``` in the [Task 1](#task-
       - apply everything you have done (and you need to do in `task2`) to a second dataset, probably `NYC taxi mobility data`, that is [available online](https://github.com/IsamAljawarneh/datasets/tree/master/data), `nyc1.zip`. the target variable is `trip_distance`. You need to capture `accuracy` and `running time` as described previously.
       - You can find more data `categorized` in the following repo [datasets](https://github.com/IsamAljawarneh/datasets)
 
-- [ ] SUB-TASK 4-1
+- [X] SUB-TASK 4-1
 ### `IMPORTANT!` **however, you need to add the following to your code it would be great!**
    - you need to develop other performance metrics, for example, what is the difference between distances of several trips recommended by your novel system against a plain version that considers only the distance!
    - Also, you can measure the following: `the route planning effectiveness is verified by comparing the PM2.5 potential dose descending rate between the healthy route and the shortest route.` , in other terms `what is the potential dose reduction rate of the healthy route`, read more details in the reference paper newly attached titled `A short-distance healthy route planning approach`, available [here](https://github.com/Dr-Isam-ALJAWARNEH/ds-project-lb-context-aware-route-planner/blob/main/literature/reference_paper/A%20short-distance%20healthy%20route%20planning%20approach.pdf)
